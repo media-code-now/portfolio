@@ -283,8 +283,7 @@ nav > .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
   background: #333;
   color: #fff;
 }
-#iconbar {
-  background: url("/img/iconbar2.png") center center;
+
 
   background-size: cover;
   height: 20vh;
@@ -293,12 +292,16 @@ nav > .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
   background: url("../img/iconbar2.png") no-repeat center center;
   height: 20vh;
 }
+.social-img img {
+  height: 100px;
+}
+
 #home-moving {
   position: relative;
   min-height: 200px;
   background: url(../img/lights.jpg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: left;
   text-align: center;
   color: #fff;
 }
@@ -473,5 +476,11 @@ nav > .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
   }
   #header .hamburger {
     overflow: hidden;
+  }
+}
+@media (max-width: 786px) {
+
+  .social-img img {
+    height: 50px;
   }
 }
