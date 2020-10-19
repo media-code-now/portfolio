@@ -481,6 +481,6 @@ nav > .navbar-collapse > .navbar-nav > .nav-item > .nav-link:hover {
 @media (max-width: 786px) {
 
   .social-img img {
-    height: 50px;
+    height: 40px;
   }
 }
