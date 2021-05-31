@@ -48,6 +48,15 @@ header .navbar .navbar-brand {
   border-bottom: 1px #eee solid;
   padding-top: 50px;
 }
+#page-header1 {
+  height: 30vh;
+  background: url(../img/pageT.jpg) no-repeat center center / cover;
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
 
 /***** HEADER *****/
 .header {
